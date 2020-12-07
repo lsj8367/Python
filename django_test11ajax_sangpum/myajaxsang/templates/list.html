@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#btnOk").on("click", function(){
+		//alert('조용');
+		$(".showData").empty();
+		
+		$.ajax({
+			url : 'calldb',
+			type : 'get',
+			// 줄게없어서 data는 쓰지않음
+			dataType : 'json',
+			success:function(data){
+				//alert(data);
+				var str = "<table border='1'>";
+				str += "<tr><th>코드</th><th>품명</th><th>수량</th><th>단가</th></tr>";
+				count = 0;
+				$.each(data, function(ind, entry){
+					str += "<tr>";
+					str += "<td>" + entry['code'] + "</td>";
+					str += "<td>" + entry['sang'] + "</td>";
+					str += "<td>" + entry['su'] + "</td>";
+					str += "<td>" + entry['dan'] + "</td>";
+					str += "</tr>";
+					count += 1; //건수 늘려주기
+				});
+				
+				str += "</table>";
+				
+				$(".showData").append(str);
+				$(".showData").append("건수 : " + count);
+			},
+			error:function(){
+				$(".showData").text("처리 오류");
+			}
+		});
+	});	
+});
+</script>
+</head>
+<body>
+상품자료 읽기 - (Ajax)<br>
+<button id="btnOk">상품 읽기</button>
+<br><br>
+<div class="showData"></div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#btnOk").on("click", function(){
+		//alert('a');
+		//alert(jikwon_jik);
+		$(".showData").empty();
+		
+		var jikwon_jik = $("#txtJik").val();
+		
+		if (jikwon_jik === ""){
+			alert("입력자료를 채우세요");
+			return;
+		}
+		
+		$.ajax({
+			url : 'search',
+			type : 'get',
+			data : {'jikwon_jik' : jikwon_jik}, //여기가 views에 주는값
+			dataType : 'json',
+			success:function(data){ //성공시에
+				if(data.length > 0){
+				//alert(data);
+				var str = "<table border='1'>";
+				str += "<tr><th>사번</th><th>직원명</th><th>부서명</th></tr>";
+				count = 0;
+				$.each(data, function(ind, entry){
+					str += "<tr>";
+					str += "<td>" + entry['jikwon_no'] + "</td>";
+					str += "<td>" + entry['jikwon_name'] + "</td>";
+					str += "<td>" + entry['buser_name'] + "</td>";
+					str += "</tr>";
+					count += 1;
+				});
+				
+				str += "</table>";
+				
+				$(".showData").append(str);
+				$(".showData").append("인원 수 : " + count + " 명");
+				}else{
+					alert('자료가 없음');
+				}
+			},
+			error:function(){
+				$(".showData").html('<h2>에러</h2>'); //오류발생 시
+			}
+		});
+	});
+});
+</script>
+</head>
+<body>
+직급 : <input type="text" name="jikwon_jik" id="txtJik">
+<button id="btnOk">조회</button>
+<br><br>
+<div class="showData"></div>
+</body>
+</html>

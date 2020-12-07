@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+{% if jikwons%}
+{% for j in jikwons %}
+직원명 : {{j.jikwon_name}}
+직급 : {{j.jikwon_jik}}<br>
+
+부서명 : {{busers.buser_name}}
+부서전화 : {{busers.buser_tel}}<br>
+
+{% if j.jikwon_gen == '남' %} <!-- 성별 판단 이미지 -->
+	<img src="/static/images/man.jpg" width="200"/>
+	
+{% else %}
+	<img src="/static/images/woman.png" width="200"/>
+	
+{% endif %}
+<br>
+
+평점 : <b style="color: blue;">{{j.jikwon_rating}}</b><br>
+<b>근무년수 : {{j.jikwon_ibsail}} 년</b><br>
+
+<br>
+{% endfor %}
+{% else %}
+{% if messages %}
+{% for message in messages %}
+    {{ message }}
+{% endfor %}
+{% endif %}
+<a href="/">초기화면으로</a>
+
+{% endif %}
+</body>
+</html>

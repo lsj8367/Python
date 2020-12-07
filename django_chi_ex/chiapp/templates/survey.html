@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#btnGo").click(function(){
+		frm.submit();
+	});
+	
+	$("#btnReset").click(function(){
+		frm.reset();
+	});
+});
+</script>
+</head>
+<body>
+ * 커피전문점에 대한 소비자 인식조사 *<br>
+<form action="/list/" method="post" name="frm" id="frm">{% csrf_token %}
+귀하의 성별은?
+<input type="radio" name="gender" value="남" checked="checked">남
+<input type="radio" name="gender" value="여">여
+<br>
+귀하의 나이는?
+<input type="radio" name="age" value="10" checked="checked">10대   
+<input type="radio" name="age" value="20">20대   
+<input type="radio" name="age" value="30">30대   
+<input type="radio" name="age" value="40">40대
+<input type="radio" name="age" value="50">50대이상
+<br>
+선호하는 커피전문점은?
+<input type="radio" name="co_survey" value="스타벅스" checked="checked">스타벅스
+<input type="radio" name="co_survey" value="커피빈">커피빈
+<input type="radio" name="co_survey" value="이디아">이디아
+<input type="radio" name="co_survey" value="탐앤탐스">탐앤탐스
+<br>
+<input type="button" value="결과보기" id="btnGo">
+<input type="button" value="초기화" id="btnReset">
+</form>
+</body>
+</html>

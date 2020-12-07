@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+*** 부서정보 ***<br>
+<table>
+	<tr>	
+		<th>고객번호</th><th>고객명</th><th>성별</th><th>고객전화</th>
+	</tr>
+	{% for g in glist %}
+	<tr style="text-align: center;">
+		<td>{{g.gogek_no}}</td>
+		<td>{{g.gogek_name}}</td>
+		<td>{{g.gogek_gen}}</td>
+		<td>{{g.gogek_tel}}</td>
+	</tr>
+	{% endfor %}
+</table>
+</body>
+</html>

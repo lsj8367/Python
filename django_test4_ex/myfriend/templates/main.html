@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#btnHome").click(function(){
+		//history.back();
+		location.href = '';
+	});
+});
+</script>
+</head>
+<body>
+<h2>친구 목록</h2>
+<form action="" method="post">{% csrf_token %}
+<input type="submit" value="친구보기"><br><br>
+{% block content %}
+{% if friend.count > 0 %}
+<table>
+<tr>
+	<th>id</th><th>irum</th><th>juso</th><th>nai</th>
+</tr>
+{% for f in friend %}
+<tr>
+	<td>{{f.id}}</td><td>{{f.irum}}</td><td>{{f.juso}}</td><td>{{f.nai}}</td>
+</tr>
+{% endfor %}
+</table>
+{% else %}
+	
+{% endif %}
+
+{% endblock %}
+</form>
+<br>
+<input type="button" id="btnHome" value="홈으로">
+</body>
+</html>

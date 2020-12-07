@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h3>* 커피전문점에 대한 소비자 인식조사 결과 *</h3><br>
+{{ result | safe}}
+p-value값 : <b style="color: red;">{{p}}</b><br>
+
+{% if p >= 0.05 %}
+	p-value가 0.05보다 크므로
+	귀무가설 채택 : 성별에따라 선호하는 커피브랜드에는 차이가 있다
+{% else %}
+	p-value가 0.05보다 작으므로
+	귀무가설 기각 --> 대립가설 : <br>
+	성별에따라 선호하는 커피브랜드에는 차이가 없다
+{% endif %}
+<br>
+<img src="/static/plot.png">
+<br>
+<a href="/survey/">다시 설문조사하기</a>
+</body>
+</html>

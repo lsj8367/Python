@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	//alert('a');
+	$("#btn1").click(function(){
+		var msg = $("#txtMsg").val();
+		//alert(msg);
+		$("#showdata1").empty();
+		
+		$.ajax({
+			url : 'startajax',
+			type : 'get',
+			data : {'msg' : msg}, //여기가 views에 주는값
+			dataType : 'json',
+			success:function(data){ //성공시에
+				//alert(data);
+				for(k in data){
+					var ss = k + "<br>" + data[k];
+				}
+				
+				ss += "<br><b>" + data['key'] + "</b>";
+				
+				$("#showdata1").html(ss); //<br>이 들어가서 html parsing 해줌
+			},
+			error:function(){
+				$("#showdata1").html('<h2>에러</h2>'); //오류발생 시
+			}
+		});
+	});
+	
+	$("#btn2").click(function(){
+		//alert('2');
+		$.ajax({
+			url : 'goajax',
+			type : 'get',
+			dataType : 'json', //views에서 받아오는 값
+			success:function(data){ //성공시에
+				//alert(data);
+				str = "";
+				$.each(data, function(ind, entry){
+					str += entry['irum'] + ", " + entry['nai'] + "<br>";
+				});
+				$("#showdata2").html(str);
+			},
+			error:function(){
+				$("#showdata2").html('<h2>에러</h2>'); //오류발생 시
+			}
+		});
+	});
+});
+</script>
+</head>
+<body>
+Ajax 연습<p/>
+자료 입력 : <input type="text" id="txtMsg" value="우승을 기대하며"><br>
+<button id="btn1">click1</button><br>
+<div id="showdata1">결과1</div>
+<hr>
+<button id="btn2">click2</button><br>
+<div id="showdata2">결과2</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+window.onload = function(){
+	document.getElementById("btnSubmit").onclick = function(){
+		chkData();
+	}
+}
+
+function chkData(){
+	//alert('a');
+	if(frm.code.value === '' || frm.sang.value === "" || frm.su.value === "" || frm.dan.value === ""){
+		alert('입력자료를 모두 채우세요');
+		return;
+	}
+	frm.method = "post"
+	frm.action = "/sangpum/insertok/"
+	frm.submit();
+}
+
+</script>
+</head>
+<body>
+<h2>* 상품 추가 *</h2>
+{% if msg %}
+	{{msg}}
+	<input type="button" value="이전으로" onclick="history.back()">
+{% else %}
+<form name="frm">{% csrf_token %}
+<table>
+	<tr>
+		<td>코드 : </td>
+		<td><input type="text" name="code"></td>
+	</tr>
+	<tr>
+		<td>품명 : </td>
+		<td><input type="text" name="sang"></td>
+	</tr>
+	<tr>
+		<td>수량 : </td>
+		<td><input type="text" name="su"></td>
+	</tr>
+	<tr>
+		<td>단가 : </td>
+		<td><input type="text" name="dan"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="button" value="저장" id="btnSubmit">
+		</td>
+	</tr>
+</table>
+</form>
+{% endif %}
+</body>
+</html>

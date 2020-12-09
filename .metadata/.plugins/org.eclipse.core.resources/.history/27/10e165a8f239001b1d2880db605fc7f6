@@ -16,9 +16,6 @@ print(dset)
 for a in dset:
     print(a)
 
-
-
-
 #=========================================================
 print()
 (train_images, train_labels), (test_images, test_labels) = datasets.mnist.load_data()
@@ -31,4 +28,4 @@ train_images = train_images / 255.0 # 정규화
 test_images = test_images.reshape((10000, 28, 28, 1))
 test_images = test_images / 255.0 # 정규화
 
-# train dataset 섞어주기
+

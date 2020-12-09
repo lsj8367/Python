@@ -4,19 +4,33 @@ import re
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from collections import Counter
+import unicodedata # 인스타 자/모음 분리현상 제거하기 위한 라이브러리
 
 okt = Okt()
 word_dict = {}
 
+# travel = pd.read_csv('travel.csv')
+# #lines = unicodedata.normalize('NFC', lines)
+list = []
+
 def Word_Slicing(fileName):
-    with open(fileName, mode = 'r') as f:
+    with open(fileName, mode = 'r', encoding = 'utf-8') as f: # , encoding = 'utf-8'
         lines = f.read().split('\n')
-        lines = " ".join(lines)
-        lines = re.sub(r'[\ta-zA-Z0-9-=+,#/\?:★^$.@*\"※~&%ㆍ!』◈\\‘|\(\)\[\]\<\>`\']',' ',lines)
-        lines = lines.split()
-        #print(lines)
-        
-    for line in lines:
+        print(type(lines))
+        for txt in lines:
+            txt = unicodedata.normalize('NFC', txt)            
+            txt = txt.split('\n')
+            #print(type(txt))
+            list.append(txt)
+            data = pd.DataFrame(list) # 서울에 사시느ㄴ  식의 깨짐현상 제거
+        print(data)
+        data[0] = data[0].str.replace(pat=r'[^가-힣]', repl=r' ', regex=True)
+        print(data)
+    data[0].to_csv('test.csv', encoding='utf8', index = False)
+    print('저장완료') # 단어 임베딩용 엑셀파일
+
+
+    for line in data[0]:
         datas = okt.pos(line)
         #print(datas)
         for word in datas:
@@ -25,19 +39,20 @@ def Word_Slicing(fileName):
                     word_dict[word[0]] = 0
                 word_dict[word[0]] += 1 # 있으면 1씩 누적
         
-    #rint(word_dict)
+    
+    #print(word_dict)
     
     keys = sorted(word_dict.items(), key = lambda x:x[1], reverse=True)
     #print(keys)
     df = pd.DataFrame([word_dict.keys(), word_dict.values()])
     df = df.T
     df.columns = ['단어', '빈도수']
-    #print(df)
     df = df.sort_values(by=['빈도수'], axis = 0, ascending = False)
+    #print(df)
     
-    df.to_excel(excel_writer = 'sample.xlsx')
-    #print("저장됐음")
+#     df.to_excel(excel_writer = '{}(word).xlsx'.format(fileName[0:-4]))
+#     print("저장됐음")
 
 if __name__ == '__main__':
-    Word_Slicing('jejudoMatJip.txt')
+    Word_Slicing('travel.csv')
 

@@ -76,5 +76,5 @@ score = model.evaluate(test_images, test_labels)
 print('test loss : ', score[0])
 print('test acc : ', score[1])
 
-print('예측값 : ', np.argmax(model.predict(test_images[:2])))
+print('예측값 : ', np.argmax(model.predict(test_images[:2]), 1))
 print('실제값 : ', test_labels[:2])

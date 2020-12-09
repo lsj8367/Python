@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django_test8_ex.__init__|C:\Users\com\python\django_test8_ex\django_test8_ex\__init__.py
+django_test8_ex.asgi|C:\Users\com\python\django_test8_ex\django_test8_ex\asgi.py
+django_test8_ex.settings|C:\Users\com\python\django_test8_ex\django_test8_ex\settings.py
+django_test8_ex.urls|C:\Users\com\python\django_test8_ex\django_test8_ex\urls.py
+django_test8_ex.wsgi|C:\Users\com\python\django_test8_ex\django_test8_ex\wsgi.py
+exapp.__init__|C:\Users\com\python\django_test8_ex\exapp\__init__.py
+exapp.admin|C:\Users\com\python\django_test8_ex\exapp\admin.py
+exapp.apps|C:\Users\com\python\django_test8_ex\exapp\apps.py
+exapp.migrations.0001_initial|C:\Users\com\python\django_test8_ex\exapp\migrations\0001_initial.py
+exapp.migrations.__init__|C:\Users\com\python\django_test8_ex\exapp\migrations\__init__.py
+exapp.models|C:\Users\com\python\django_test8_ex\exapp\models.py
+exapp.tests|C:\Users\com\python\django_test8_ex\exapp\tests.py
+exapp.views|C:\Users\com\python\django_test8_ex\exapp\views.py
+manage|C:\Users\com\python\django_test8_ex\manage.py

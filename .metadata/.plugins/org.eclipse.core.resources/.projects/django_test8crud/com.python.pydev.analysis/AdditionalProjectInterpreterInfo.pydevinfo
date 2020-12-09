@@ -1,0 +1,88 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\django_test8crud\com.python.pydev.analysis\v2_indexcache
+mysangpum.migrations.0001_initial|1604450062000000000|C:\Users\com\python\django_test8crud\mysangpum\migrations\0001_initial.py
+mysangpum.models|1604449774000000000|C:\Users\com\python\django_test8crud\mysangpum\models.py
+django_test8crud.wsgi|1604449130000000000|C:\Users\com\python\django_test8crud\django_test8crud\wsgi.py
+django_test8crud.settings|1604450154000000000|C:\Users\com\python\django_test8crud\django_test8crud\settings.py
+django_test8crud.asgi|1604449130000000000|C:\Users\com\python\django_test8crud\django_test8crud\asgi.py
+mysangpum.tests|1604449158000000000|C:\Users\com\python\django_test8crud\mysangpum\tests.py
+mysangpum.migrations.__init__|1604449158000000000|C:\Users\com\python\django_test8crud\mysangpum\migrations\__init__.py
+manage|1604449130000000000|C:\Users\com\python\django_test8crud\manage.py
+mysangpum.admin|1604449158000000000|C:\Users\com\python\django_test8crud\mysangpum\admin.py
+mysangpum.apps|1604449158000000000|C:\Users\com\python\django_test8crud\mysangpum\apps.py
+mysangpum.urls|1604456158000000000|C:\Users\com\python\django_test8crud\mysangpum\urls.py
+mysangpum.views|1604476654000000000|C:\Users\com\python\django_test8crud\mysangpum\views.py
+mysangpum.__init__|1604449158000000000|C:\Users\com\python\django_test8crud\mysangpum\__init__.py
+django_test8crud.urls|1604450402000000000|C:\Users\com\python\django_test8crud\django_test8crud\urls.py
+django_test8crud.__init__|1604449130000000000|C:\Users\com\python\django_test8crud\django_test8crud\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+24
+12=mysangpum.migrations.0001_initial
+16=mysangpum.models
+24=MysangpumConfig
+6=django_test8crud.wsgi
+2=django_test8crud.settings
+7=C:\Users\com\python\django_test8crud\mysangpum\views.py
+23=Migration
+4=django_test8crud.asgi
+19=C:\Users\com\python\django_test8crud\django_test8crud\urls.py
+22=Sangdata.Meta
+10=manage
+1=C:\Users\com\python\django_test8crud\django_test8crud\settings.py
+15=C:\Users\com\python\django_test8crud\mysangpum\models.py
+14=mysangpum.apps
+8=mysangpum.views
+13=C:\Users\com\python\django_test8crud\mysangpum\apps.py
+17=C:\Users\com\python\django_test8crud\mysangpum\urls.py
+18=mysangpum.urls
+3=C:\Users\com\python\django_test8crud\django_test8crud\asgi.py
+5=C:\Users\com\python\django_test8crud\django_test8crud\wsgi.py
+9=C:\Users\com\python\django_test8crud\manage.py
+20=django_test8crud.urls
+21=Sangdata
+11=C:\Users\com\python\django_test8crud\mysangpum\migrations\0001_initial.py
+-- END DICTIONARY
+-- START TREE 1
+25
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^105#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+con|2|conn!7^17#1*67@config!7^15#1*67@
+dat|1|DATABASES!1^86#1*19@
+deb|1|DEBUG!1^26#1*19@
+del|1|DeleteFunc!7^104#5*66@
+ins|3|INSTALLED_APPS!1^41#1*19@InsertOkFunc!7^65#5*66@InsertFunc!7^62#5*66@
+lan|1|LANGUAGE_CODE!1^111#1*19@
+lis|1|ListFunc!7^22#5*66@
+mai|2|main!9^7#5*82@MainFunc!7^19#5*66@
+mid|1|MIDDLEWARE!1^51#1*19@
+mig|1|Migration!11^6#7*97@
+mys|1|MysangpumConfig!13^4#7*113@
+roo|1|ROOT_URLCONF!1^53#1*19@
+san|1|Sangdata!15^4#7*129@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^125#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^113#1*19@
+upd|2|UpdateFunc!7^87#5*66@UpdateOkFunc!7^92#5*66@
+url|2|urlpatterns!17^11#1*147@urlpatterns!19^26#1*163@
+use|3|USE_L10N!1^117#1*19@USE_TZ!1^119#1*19@USE_I18N!1^115#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+11
+cod|1|code!21&15^5#5*131@
+dan|1|dan!21&15^8#5*131@
+db_|1|db_table!22&15^12#9*131@
+dep|1|dependencies!23&11^11#5*99@
+ini|1|initial!23&11^8#5*99@
+man|1|managed!22&15^11#9*131@
+met|1|Meta!21&15^10#11*129@
+nam|1|name!24&13^5#5*115@
+ope|1|operations!23&11^27#5*99@
+san|1|sang!21&15^6#5*131@
+su|1|su!21&15^7#5*131@
+-- END TREE

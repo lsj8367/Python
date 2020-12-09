@@ -1,0 +1,91 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\django_test7multi_table\com.python.pydev.analysis\v2_indexcache
+sangpumapp.admin|1604373078000000000|C:\Users\com\python\django_test7multi_table\sangpumapp\admin.py
+sangpumapp.apps|1604372298000000000|C:\Users\com\python\django_test7multi_table\sangpumapp\apps.py
+django_test7multi_table.urls|1604374510000000000|C:\Users\com\python\django_test7multi_table\django_test7multi_table\urls.py
+sangpumapp.__init__|1604372298000000000|C:\Users\com\python\django_test7multi_table\sangpumapp\__init__.py
+django_test7multi_table.__init__|1604372148000000000|C:\Users\com\python\django_test7multi_table\django_test7multi_table\__init__.py
+sangpumapp.migrations.0001_initial|1604373114000000000|C:\Users\com\python\django_test7multi_table\sangpumapp\migrations\0001_initial.py
+sangpumapp.views|1604380836000000000|C:\Users\com\python\django_test7multi_table\sangpumapp\views.py
+manage|1604372148000000000|C:\Users\com\python\django_test7multi_table\manage.py
+django_test7multi_table.wsgi|1604372148000000000|C:\Users\com\python\django_test7multi_table\django_test7multi_table\wsgi.py
+sangpumapp.models|1604372860000000000|C:\Users\com\python\django_test7multi_table\sangpumapp\models.py
+sangpumapp.migrations.__init__|1604372298000000000|C:\Users\com\python\django_test7multi_table\sangpumapp\migrations\__init__.py
+django_test7multi_table.asgi|1604372148000000000|C:\Users\com\python\django_test7multi_table\django_test7multi_table\asgi.py
+sangpumapp.tests|1604372298000000000|C:\Users\com\python\django_test7multi_table\sangpumapp\tests.py
+django_test7multi_table.settings|1604372366000000000|C:\Users\com\python\django_test7multi_table\django_test7multi_table\settings.py
+-- END DISKCACHE
+-- START DICTIONARY
+27
+3=C:\Users\com\python\django_test7multi_table\django_test7multi_table\asgi.py
+27=Maker.Meta
+18=sangpumapp.apps
+20=django_test7multi_table.urls
+17=C:\Users\com\python\django_test7multi_table\sangpumapp\apps.py
+22=Migration
+23=MakerAdmin
+25=Product
+13=C:\Users\com\python\django_test7multi_table\sangpumapp\models.py
+21=Maker
+11=C:\Users\com\python\django_test7multi_table\sangpumapp\admin.py
+14=sangpumapp.models
+15=C:\Users\com\python\django_test7multi_table\sangpumapp\migrations\0001_initial.py
+24=ProductAdmin
+2=django_test7multi_table.settings
+19=C:\Users\com\python\django_test7multi_table\django_test7multi_table\urls.py
+12=sangpumapp.admin
+1=C:\Users\com\python\django_test7multi_table\django_test7multi_table\settings.py
+26=SangpumappConfig
+16=sangpumapp.migrations.0001_initial
+7=C:\Users\com\python\django_test7multi_table\sangpumapp\views.py
+8=sangpumapp.views
+9=C:\Users\com\python\django_test7multi_table\manage.py
+10=manage
+6=django_test7multi_table.wsgi
+5=C:\Users\com\python\django_test7multi_table\django_test7multi_table\wsgi.py
+4=django_test7multi_table.asgi
+-- END DICTIONARY
+-- START TREE 1
+23
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^105#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+dat|1|DATABASES!1^86#1*19@
+deb|1|DEBUG!1^26#1*19@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^111#1*19@
+lis|3|List2!7^12#5*66@List3!7^17#5*66@List1!7^8#5*66@
+mai|2|main!9^7#5*82@Main!7^5#5*66@
+mak|2|MakerAdmin!11^5#7*97@Maker!13^4#7*113@
+mid|1|MIDDLEWARE!1^51#1*19@
+mig|1|Migration!15^7#7*129@
+pro|2|Product!13^17#7*113@ProductAdmin!11^9#7*97@
+roo|1|ROOT_URLCONF!1^53#1*19@
+san|1|SangpumappConfig!17^4#7*145@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^125#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^113#1*19@
+url|1|urlpatterns!19^27#1*163@
+use|3|USE_TZ!1^119#1*19@USE_I18N!1^115#1*19@USE_L10N!1^117#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+14
+__s|1|__str__!21&13^12#9*114@
+add|1|addr!21&13^7#5*115@
+dep|1|dependencies!22&15^12#5*131@
+ini|1|initial!22&15^9#5*131@
+lis|2|list_display!23&11^6#5*99@list_display!24&11^10#5*99@
+mak|1|maker_name!25&13^20#5*115@
+met|1|Meta!21&13^9#11*113@
+mna|1|mname!21&13^5#5*115@
+nam|1|name!26&17^5#5*147@
+ope|1|operations!22&15^36#5*131@
+ord|1|ordering!27&13^10#9*115@
+pna|1|pname!25&13^18#5*115@
+pri|1|price!25&13^19#5*115@
+tel|1|tel!21&13^6#5*115@
+-- END TREE

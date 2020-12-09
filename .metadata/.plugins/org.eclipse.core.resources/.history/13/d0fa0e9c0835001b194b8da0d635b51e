@@ -1,0 +1,29 @@
+# 연산자와 함수 일부 확인
+import tensorflow as tf
+import numpy as np
+
+x = tf.constant(7)
+y = 3
+# tf.cond(조건, 함수1, 함수2) 3항연산
+result1 = tf.cond(x > y, lambda: tf.add(x, y), lambda: tf.subtract(x, y))
+print(result1.numpy())
+
+print()
+f1 = lambda:tf.constant(1)
+print(f1())
+f2 = lambda:tf.constant(2)
+a = tf.constant(3)
+b = tf.constant(4)
+result2 = tf.case([(tf.less(a, b), f1)], default = f2) # if a < b return 1 else 2
+print(result2.numpy())
+ 
+print()
+print(tf.equal(1, 2).numpy())
+print(tf.not_equal(1, 2))
+print(tf.less(1, 2))
+print(tf.greater(1, 2))
+print(tf.greater_equal(1, 2))
+
+print()
+print(tf.logical_and(True, False).numpy())
+

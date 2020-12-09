@@ -1,0 +1,84 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\django_test11ajax_ex\com.python.pydev.analysis\v2_indexcache
+exajax.admin|1604631340000000000|C:\Users\com\python\django_test11ajax_ex\exajax\admin.py
+exajax.__init__|1604631340000000000|C:\Users\com\python\django_test11ajax_ex\exajax\__init__.py
+exajax.tests|1604631340000000000|C:\Users\com\python\django_test11ajax_ex\exajax\tests.py
+django_test11ajax_ex.__init__|1604631330000000000|C:\Users\com\python\django_test11ajax_ex\django_test11ajax_ex\__init__.py
+exajax.apps|1604631340000000000|C:\Users\com\python\django_test11ajax_ex\exajax\apps.py
+exajax.models|1604631428000000000|C:\Users\com\python\django_test11ajax_ex\exajax\models.py
+django_test11ajax_ex.settings|1604631358000000000|C:\Users\com\python\django_test11ajax_ex\django_test11ajax_ex\settings.py
+exajax.migrations.0001_initial|1604631628000000000|C:\Users\com\python\django_test11ajax_ex\exajax\migrations\0001_initial.py
+manage|1604631330000000000|C:\Users\com\python\django_test11ajax_ex\manage.py
+django_test11ajax_ex.wsgi|1604631330000000000|C:\Users\com\python\django_test11ajax_ex\django_test11ajax_ex\wsgi.py
+exajax.views|1604640694000000000|C:\Users\com\python\django_test11ajax_ex\exajax\views.py
+django_test11ajax_ex.urls|1604632230000000000|C:\Users\com\python\django_test11ajax_ex\django_test11ajax_ex\urls.py
+exajax.migrations.__init__|1604631340000000000|C:\Users\com\python\django_test11ajax_ex\exajax\migrations\__init__.py
+django_test11ajax_ex.asgi|1604631330000000000|C:\Users\com\python\django_test11ajax_ex\django_test11ajax_ex\asgi.py
+-- END DISKCACHE
+-- START DICTIONARY
+24
+22=Buser.Meta
+11=C:\Users\com\python\django_test11ajax_ex\exajax\views.py
+15=C:\Users\com\python\django_test11ajax_ex\exajax\migrations\0001_initial.py
+23=Migration
+10=exajax.apps
+8=exajax.models
+20=Jikwon
+2=django_test11ajax_ex.settings
+16=exajax.migrations.0001_initial
+14=manage
+4=django_test11ajax_ex.wsgi
+12=exajax.views
+18=django_test11ajax_ex.urls
+24=ExajaxConfig
+19=Buser
+1=C:\Users\com\python\django_test11ajax_ex\django_test11ajax_ex\settings.py
+3=C:\Users\com\python\django_test11ajax_ex\django_test11ajax_ex\wsgi.py
+17=C:\Users\com\python\django_test11ajax_ex\django_test11ajax_ex\urls.py
+13=C:\Users\com\python\django_test11ajax_ex\manage.py
+5=C:\Users\com\python\django_test11ajax_ex\django_test11ajax_ex\asgi.py
+9=C:\Users\com\python\django_test11ajax_ex\exajax\apps.py
+6=django_test11ajax_ex.asgi
+7=C:\Users\com\python\django_test11ajax_ex\exajax\models.py
+21=Jikwon.Meta
+-- END DICTIONARY
+-- START TREE 1
+24
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^105#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+bus|1|Buser!7^18#7*65@
+dat|1|DATABASES!1^86#1*19@
+deb|1|DEBUG!1^26#1*19@
+exa|1|ExajaxConfig!9^4#7*81@
+ins|1|INSTALLED_APPS!1^41#1*19@
+jik|1|Jikwon!7^4#7*65@
+lan|1|LANGUAGE_CODE!1^111#1*19@
+lis|1|ListFunc!11^9#5*98@
+mai|2|main!13^7#5*114@MainFunc!11^6#5*98@
+mid|1|MIDDLEWARE!1^51#1*19@
+mig|1|Migration!15^6#7*129@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sea|1|SearchFunc!11^12#5*98@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^125#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^113#1*19@
+url|1|urlpatterns!17^26#1*147@
+use|3|USE_L10N!1^117#1*19@USE_I18N!1^115#1*19@USE_TZ!1^119#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+9
+bus|5|buser_tel!19&7^22#5*67@buser_name!19&7^20#5*67@buser_num!20&7^7#5*67@buser_no!19&7^19#5*67@buser_loc!19&7^21#5*67@
+db_|2|db_table!21&7^16#9*67@db_table!22&7^26#9*67@
+dep|1|dependencies!23&15^11#5*131@
+ini|1|initial!23&15^8#5*131@
+jik|7|jikwon_name!20&7^6#5*67@jikwon_no!20&7^5#5*67@jikwon_jik!20&7^8#5*67@jikwon_ibsail!20&7^10#5*67@jikwon_gen!20&7^11#5*67@jikwon_pay!20&7^9#5*67@jikwon_rating!20&7^12#5*67@
+man|2|managed!21&7^15#9*67@managed!22&7^25#9*67@
+met|2|Meta!20&7^14#11*65@Meta!19&7^24#11*65@
+nam|1|name!24&9^5#5*83@
+ope|1|operations!23&15^44#5*131@
+-- END TREE

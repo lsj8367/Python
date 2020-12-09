@@ -1,0 +1,8 @@
+import tensorflow as tf
+import numpy as np
+
+# 선형회귀 모델 계산으로 작성
+opti = tf.keras.optimizers.SGD()
+
+w = tf.Variable(tf.random.normal((1,)))
+b = tf.Variable(tf.random.normal((1,)))

@@ -1,0 +1,64 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\django_test1\com.python.pydev.analysis\v2_indexcache
+myapp.views|1604043896000000000|C:\Users\com\python\django_test1\myapp\views.py
+django_test1.asgi|1604040630000000000|C:\Users\com\python\django_test1\django_test1\asgi.py
+django_test1.__init__|1604040630000000000|C:\Users\com\python\django_test1\django_test1\__init__.py
+myapp.migrations.__init__|1604041328000000000|C:\Users\com\python\django_test1\myapp\migrations\__init__.py
+myapp.models|1604041328000000000|C:\Users\com\python\django_test1\myapp\models.py
+manage|1604040630000000000|C:\Users\com\python\django_test1\manage.py
+myapp.admin|1604041328000000000|C:\Users\com\python\django_test1\myapp\admin.py
+myapp.apps|1604041328000000000|C:\Users\com\python\django_test1\myapp\apps.py
+django_test1.settings|1604045132000000000|C:\Users\com\python\django_test1\django_test1\settings.py
+django_test1.wsgi|1604040630000000000|C:\Users\com\python\django_test1\django_test1\wsgi.py
+myapp.tests|1604041328000000000|C:\Users\com\python\django_test1\myapp\tests.py
+django_test1.urls|1604276294000000000|C:\Users\com\python\django_test1\django_test1\urls.py
+myapp.__init__|1604041328000000000|C:\Users\com\python\django_test1\myapp\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+15
+11=C:\Users\com\python\django_test1\myapp\apps.py
+8=myapp.views
+4=django_test1.asgi
+15=MyappConfig
+5=C:\Users\com\python\django_test1\django_test1\wsgi.py
+13=C:\Users\com\python\django_test1\django_test1\urls.py
+3=C:\Users\com\python\django_test1\django_test1\asgi.py
+10=manage
+12=myapp.apps
+2=django_test1.settings
+1=C:\Users\com\python\django_test1\django_test1\settings.py
+6=django_test1.wsgi
+7=C:\Users\com\python\django_test1\myapp\views.py
+14=django_test1.urls
+9=C:\Users\com\python\django_test1\manage.py
+-- END DICTIONARY
+-- START TREE 1
+22
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^101#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+hel|2|helloFunc!7^8#5*66@hello_temp_Func!7^13#5*66@
+ind|1|indexFunc!7^5#5*66@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^107#1*19@
+mai|1|main!9^7#5*82@
+mid|1|MIDDLEWARE!1^51#1*19@
+mya|1|MyappConfig!11^4#7*97@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|2|STATIC_URL!1^122#1*19@STATICFILES_DIRS!1^125#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^109#1*19@
+url|1|urlpatterns!13^28#1*115@
+use|3|USE_L10N!1^113#1*19@USE_TZ!1^115#1*19@USE_I18N!1^111#1*19@
+wor|1|worldFunc!7^17#5*66@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+1
+nam|1|name!15&11^5#5*99@
+-- END TREE

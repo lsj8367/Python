@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django_test_ex.__init__|C:\Users\com\python\django_test4_ex\django_test_ex\__init__.py
+django_test_ex.asgi|C:\Users\com\python\django_test4_ex\django_test_ex\asgi.py
+django_test_ex.settings|C:\Users\com\python\django_test4_ex\django_test_ex\settings.py
+django_test_ex.urls|C:\Users\com\python\django_test4_ex\django_test_ex\urls.py
+django_test_ex.wsgi|C:\Users\com\python\django_test4_ex\django_test_ex\wsgi.py
+manage|C:\Users\com\python\django_test4_ex\manage.py
+myfriend.__init__|C:\Users\com\python\django_test4_ex\myfriend\__init__.py
+myfriend.admin|C:\Users\com\python\django_test4_ex\myfriend\admin.py
+myfriend.apps|C:\Users\com\python\django_test4_ex\myfriend\apps.py
+myfriend.migrations.0001_initial|C:\Users\com\python\django_test4_ex\myfriend\migrations\0001_initial.py
+myfriend.migrations.__init__|C:\Users\com\python\django_test4_ex\myfriend\migrations\__init__.py
+myfriend.models|C:\Users\com\python\django_test4_ex\myfriend\models.py
+myfriend.tests|C:\Users\com\python\django_test4_ex\myfriend\tests.py
+myfriend.views|C:\Users\com\python\django_test4_ex\myfriend\views.py

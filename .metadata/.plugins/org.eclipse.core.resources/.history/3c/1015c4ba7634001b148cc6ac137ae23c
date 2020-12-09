@@ -1,0 +1,4 @@
+# 변수
+import tensorflow as tf
+t = tf.Variable(1.0) # 실수/정수
+print(t)

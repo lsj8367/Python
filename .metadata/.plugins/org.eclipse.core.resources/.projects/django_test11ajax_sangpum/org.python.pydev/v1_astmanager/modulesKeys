@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django_test11ajax_sangpum.__init__|C:\Users\com\python\django_test11ajax_sangpum\django_test11ajax_sangpum\__init__.py
+django_test11ajax_sangpum.asgi|C:\Users\com\python\django_test11ajax_sangpum\django_test11ajax_sangpum\asgi.py
+django_test11ajax_sangpum.settings|C:\Users\com\python\django_test11ajax_sangpum\django_test11ajax_sangpum\settings.py
+django_test11ajax_sangpum.urls|C:\Users\com\python\django_test11ajax_sangpum\django_test11ajax_sangpum\urls.py
+django_test11ajax_sangpum.wsgi|C:\Users\com\python\django_test11ajax_sangpum\django_test11ajax_sangpum\wsgi.py
+manage|C:\Users\com\python\django_test11ajax_sangpum\manage.py
+myajaxsang.__init__|C:\Users\com\python\django_test11ajax_sangpum\myajaxsang\__init__.py
+myajaxsang.admin|C:\Users\com\python\django_test11ajax_sangpum\myajaxsang\admin.py
+myajaxsang.apps|C:\Users\com\python\django_test11ajax_sangpum\myajaxsang\apps.py
+myajaxsang.migrations.0001_initial|C:\Users\com\python\django_test11ajax_sangpum\myajaxsang\migrations\0001_initial.py
+myajaxsang.migrations.__init__|C:\Users\com\python\django_test11ajax_sangpum\myajaxsang\migrations\__init__.py
+myajaxsang.models|C:\Users\com\python\django_test11ajax_sangpum\myajaxsang\models.py
+myajaxsang.tests|C:\Users\com\python\django_test11ajax_sangpum\myajaxsang\tests.py
+myajaxsang.views|C:\Users\com\python\django_test11ajax_sangpum\myajaxsang\views.py

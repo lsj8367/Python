@@ -1,0 +1,16 @@
+MODULES_MANAGER_V3
+django_test6maria.__init__|C:\Users\com\python\django_test6maria\django_test6maria\__init__.py
+django_test6maria.asgi|C:\Users\com\python\django_test6maria\django_test6maria\asgi.py
+django_test6maria.settings|C:\Users\com\python\django_test6maria\django_test6maria\settings.py
+django_test6maria.urls|C:\Users\com\python\django_test6maria\django_test6maria\urls.py
+django_test6maria.wsgi|C:\Users\com\python\django_test6maria\django_test6maria\wsgi.py
+manage|C:\Users\com\python\django_test6maria\manage.py
+myguest.__init__|C:\Users\com\python\django_test6maria\myguest\__init__.py
+myguest.admin|C:\Users\com\python\django_test6maria\myguest\admin.py
+myguest.apps|C:\Users\com\python\django_test6maria\myguest\apps.py
+myguest.migrations.0001_initial|C:\Users\com\python\django_test6maria\myguest\migrations\0001_initial.py
+myguest.migrations.__init__|C:\Users\com\python\django_test6maria\myguest\migrations\__init__.py
+myguest.models|C:\Users\com\python\django_test6maria\myguest\models.py
+myguest.tests|C:\Users\com\python\django_test6maria\myguest\tests.py
+myguest.urls|C:\Users\com\python\django_test6maria\myguest\urls.py
+myguest.views|C:\Users\com\python\django_test6maria\myguest\views.py

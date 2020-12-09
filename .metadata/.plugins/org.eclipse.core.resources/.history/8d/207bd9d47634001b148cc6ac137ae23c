@@ -1,0 +1,6 @@
+# 변수
+import tensorflow as tf
+t = tf.Variable(1.0) # 실수/정수 변수형 텐서
+v = tf.Variable(tf.ones((2,)))
+m = tf.Variable(tf.ones((2,)))
+print(t)

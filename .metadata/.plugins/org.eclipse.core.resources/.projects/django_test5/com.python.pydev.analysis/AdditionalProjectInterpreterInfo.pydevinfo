@@ -1,0 +1,88 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\django_test5\com.python.pydev.analysis\v2_indexcache
+myapp.views|1604306406000000000|C:\Users\com\python\django_test5\myapp\views.py
+myapp.migrations.__init__|1604300534000000000|C:\Users\com\python\django_test5\myapp\migrations\__init__.py
+django_test5.urls|1604306720000000000|C:\Users\com\python\django_test5\django_test5\urls.py
+myapp.models|1604300912000000000|C:\Users\com\python\django_test5\myapp\models.py
+django_test5.__init__|1604300522000000000|C:\Users\com\python\django_test5\django_test5\__init__.py
+manage|1604300522000000000|C:\Users\com\python\django_test5\manage.py
+myapp.admin|1604301018000000000|C:\Users\com\python\django_test5\myapp\admin.py
+django_test5.wsgi|1604300522000000000|C:\Users\com\python\django_test5\django_test5\wsgi.py
+django_test5.settings|1604300576000000000|C:\Users\com\python\django_test5\django_test5\settings.py
+myapp.apps|1604300534000000000|C:\Users\com\python\django_test5\myapp\apps.py
+myapp.migrations.0001_initial|1604301066000000000|C:\Users\com\python\django_test5\myapp\migrations\0001_initial.py
+django_test5.asgi|1604300522000000000|C:\Users\com\python\django_test5\django_test5\asgi.py
+myapp.tests|1604300534000000000|C:\Users\com\python\django_test5\myapp\tests.py
+myapp.__init__|1604300534000000000|C:\Users\com\python\django_test5\myapp\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+27
+7=C:\Users\com\python\django_test5\myapp\views.py
+5=C:\Users\com\python\django_test5\django_test5\wsgi.py
+8=myapp.views
+22=Migration
+1=C:\Users\com\python\django_test5\django_test5\settings.py
+17=C:\Users\com\python\django_test5\myapp\models.py
+20=django_test5.urls
+21=Profile
+16=myapp.admin
+2=django_test5.settings
+12=myapp.migrations.0001_initial
+4=django_test5.asgi
+25=ProfileAdmin
+11=C:\Users\com\python\django_test5\myapp\migrations\0001_initial.py
+23=MyClass1
+24=MyClass2
+26=MyClass3
+27=MyappConfig
+15=C:\Users\com\python\django_test5\myapp\admin.py
+18=myapp.models
+10=manage
+3=C:\Users\com\python\django_test5\django_test5\asgi.py
+6=django_test5.wsgi
+9=C:\Users\com\python\django_test5\manage.py
+14=myapp.apps
+13=C:\Users\com\python\django_test5\myapp\apps.py
+19=C:\Users\com\python\django_test5\django_test5\urls.py
+-- END DICTIONARY
+-- START TREE 1
+24
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^101#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+cal|1|CalldictFunc!7^11#5*66@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+ind|1|IndexFunc!7^8#5*66@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^107#1*19@
+mai|1|main!9^7#5*82@
+mid|1|MIDDLEWARE!1^51#1*19@
+mig|1|Migration!11^6#7*97@
+mya|1|MyappConfig!13^4#7*113@
+myc|3|MyClass3!7^68#7*65@MyClass2!7^58#7*65@MyClass1!7^53#7*65@
+pro|2|ProfileAdmin!15^5#7*129@Profile!17^4#7*145@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^121#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^109#1*19@
+url|1|urlpatterns!19^33#1*163@
+use|3|USE_TZ!1^115#1*19@USE_I18N!1^111#1*19@USE_L10N!1^113#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+10
+age|1|age!21&17^6#5*147@
+dep|1|dependencies!22&11^11#5*99@
+get|2|get!23&7^55#9*66@get!24&7^59#9*66@
+ini|1|initial!22&11^8#5*99@
+lis|1|list_display!25&15^6#5*131@
+mod|1|model!26&7^70#5*67@
+nam|2|name!21&17^5#5*147@name!27&13^5#5*115@
+ope|1|operations!22&11^22#5*99@
+pos|1|post!24&7^62#9*66@
+tem|1|template_name!23&7^54#5*67@
+-- END TREE

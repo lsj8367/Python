@@ -1,0 +1,67 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\django_test2\com.python.pydev.analysis\v2_indexcache
+gpapp.__init__|1604277736000000000|C:\Users\com\python\django_test2\gpapp\__init__.py
+django_test2.urls|1604280690000000000|C:\Users\com\python\django_test2\django_test2\urls.py
+gpapp.tests|1604277736000000000|C:\Users\com\python\django_test2\gpapp\tests.py
+gpapp.admin|1604277736000000000|C:\Users\com\python\django_test2\gpapp\admin.py
+manage|1604277644000000000|C:\Users\com\python\django_test2\manage.py
+django_test2.asgi|1604277644000000000|C:\Users\com\python\django_test2\django_test2\asgi.py
+django_test2.wsgi|1604277644000000000|C:\Users\com\python\django_test2\django_test2\wsgi.py
+gpapp.apps|1604277736000000000|C:\Users\com\python\django_test2\gpapp\apps.py
+django_test2.__init__|1604277644000000000|C:\Users\com\python\django_test2\django_test2\__init__.py
+gpapp.views|1604281814000000000|C:\Users\com\python\django_test2\gpapp\views.py
+gpapp.migrations.__init__|1604277736000000000|C:\Users\com\python\django_test2\gpapp\migrations\__init__.py
+gpapp.models|1604277736000000000|C:\Users\com\python\django_test2\gpapp\models.py
+gpapp.urls|1604280966000000000|C:\Users\com\python\django_test2\gpapp\urls.py
+django_test2.settings|1604281318000000000|C:\Users\com\python\django_test2\django_test2\settings.py
+-- END DISKCACHE
+-- START DICTIONARY
+18
+17=GpappConfig
+1=C:\Users\com\python\django_test2\django_test2\settings.py
+14=django_test2.urls
+12=manage
+18=MyCallView
+3=C:\Users\com\python\django_test2\django_test2\asgi.py
+4=django_test2.asgi
+6=django_test2.wsgi
+8=gpapp.apps
+10=gpapp.views
+11=C:\Users\com\python\django_test2\manage.py
+15=C:\Users\com\python\django_test2\gpapp\urls.py
+9=C:\Users\com\python\django_test2\gpapp\views.py
+16=gpapp.urls
+5=C:\Users\com\python\django_test2\django_test2\wsgi.py
+13=C:\Users\com\python\django_test2\django_test2\urls.py
+2=django_test2.settings
+7=C:\Users\com\python\django_test2\gpapp\apps.py
+-- END DICTIONARY
+-- START TREE 1
+20
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^101#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+gpa|1|GpappConfig!7^4#7*65@
+ins|2|InsertFunc!9^11#5*82@INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^107#1*19@
+mai|2|MainFunc!9^5#5*82@main!11^7#5*98@
+mid|1|MIDDLEWARE!1^51#1*19@
+myc|1|MyCallView!9^8#7*81@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^121#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^109#1*19@
+url|2|urlpatterns!13^29#1*115@urlpatterns!15^12#1*131@
+use|3|USE_I18N!1^111#1*19@USE_TZ!1^115#1*19@USE_L10N!1^113#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+2
+nam|1|name!17&7^5#5*67@
+tem|1|template_name!18&9^9#5*83@
+-- END TREE

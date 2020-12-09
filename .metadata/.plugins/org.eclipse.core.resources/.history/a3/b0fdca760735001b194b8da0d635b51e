@@ -1,0 +1,9 @@
+# 연산자와 함수 일부 확인
+import tensorflow as tf
+import numpy as np
+
+x = tf.constant(7)
+y = 3
+# tf.cond(조건, 함수1, 함수2) 3항연산
+result1 = tf.cond(x > y, lambda: tf.add(x, y), lambda: tf.subtract(x, y))
+print(result1)

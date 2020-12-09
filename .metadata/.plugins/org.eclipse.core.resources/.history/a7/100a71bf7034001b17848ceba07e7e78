@@ -1,0 +1,5 @@
+# 텐서플로우 기본 이해
+import tensorflow as tf
+print('즉시 실행모드 : ', tf.executing_eagerly())
+print('GPU 사용 가능 여부 : ', tf.config.list_physical_devices('GPU'))
+print(tf.test.is_gpu_available())

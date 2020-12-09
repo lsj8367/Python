@@ -1,0 +1,68 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.metrics import roc_curve, auc
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
+from tensorflow.keras.utils import to_categorical
+import pandas as pd
+
+df = pd.read_csv('https://raw.githubusercontent.com/pykwon/python/master/testdata_utf8/bmi.csv')
+print(df.head(5))
+print(df.info())
+data = df.values
+x = np.array(data[:, 0:-1], dtype= np.float64)
+y = data[:, -1]
+#print(x)
+#print(y)
+
+onehot = OneHotEncoder(categories = 'auto')
+y = onehot.fit_transform(y[:, np.newaxis]).toarray()
+print(y)
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3, random_state = 123)
+
+print(x_train.shape)
+n_features = x_train.shape[1]
+n_classes = y_train.shape[1]
+print(n_features)
+print(n_classes)
+
+def create_newModel(input_dim, output_dim, out_nodes, n, model_name = 'model'):
+    def create_model():
+        model = Sequential(name = model_name)
+        for _ in range(n):
+            model.add(Dense(out_nodes, input_dim = input_dim, activation = 'relu'))
+            
+        model.add(Dense(output_dim, activation = 'softmax'))
+        model.compile(optimizer = 'adam', loss = 'categorical_crossentropy', metrics = ['accuracy'])
+        return model
+    return create_model
+
+models = [create_newModel(n_features, n_classes, 10, n, 'model_{}'.format(n)) for n in range(1, 4)]
+
+history_dict = {}
+
+for create_model in models:
+    create_model().summary()
+    model = create_model()
+    
+    print(type(x_train))
+    print(type(y_train))
+    print(x_train.dtype, ' ', y_train.dtype)
+    
+    historys = model.fit(x_train, y_train, batch_size = 10, epochs = 100, verbose = 2, validation_split = 0.3)
+    score = model.evaluate(x_test, y_test, verbose = 2)
+    print('test accuracy : ', score[1])
+
+
+
+
+
+
+
+
+

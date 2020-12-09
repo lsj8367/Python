@@ -1,0 +1,82 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\django_chi_ex\com.python.pydev.analysis\v2_indexcache
+django_chi_ex.asgi|1605762794246576700|C:\Users\com\python\django_chi_ex\django_chi_ex\asgi.py
+django_chi_ex.wsgi|1605762794260540400|C:\Users\com\python\django_chi_ex\django_chi_ex\wsgi.py
+chiapp.migrations.__init__|1605762807032632400|C:\Users\com\python\django_chi_ex\chiapp\migrations\__init__.py
+chiapp.tests|1605762807027644900|C:\Users\com\python\django_chi_ex\chiapp\tests.py
+chiapp.__init__|1605762807031636800|C:\Users\com\python\django_chi_ex\chiapp\__init__.py
+chiapp.views|1605831055587185800|C:\Users\com\python\django_chi_ex\chiapp\views.py
+chiapp.models|1605762969118119800|C:\Users\com\python\django_chi_ex\chiapp\models.py
+manage|1605762794244582800|C:\Users\com\python\django_chi_ex\manage.py
+chiapp.admin|1605762807014680600|C:\Users\com\python\django_chi_ex\chiapp\admin.py
+django_chi_ex.settings|1605767838013259400|C:\Users\com\python\django_chi_ex\django_chi_ex\settings.py
+chiapp.migrations.0001_initial|1605762984690436100|C:\Users\com\python\django_chi_ex\chiapp\migrations\0001_initial.py
+django_chi_ex.urls|1605764922690460800|C:\Users\com\python\django_chi_ex\django_chi_ex\urls.py
+chiapp.apps|1605762807019668200|C:\Users\com\python\django_chi_ex\chiapp\apps.py
+django_chi_ex.__init__|1605762794260540400|C:\Users\com\python\django_chi_ex\django_chi_ex\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+22
+4=django_chi_ex.wsgi
+6=django_chi_ex.asgi
+15=C:\Users\com\python\django_chi_ex\chiapp\models.py
+9=C:\Users\com\python\django_chi_ex\chiapp\views.py
+7=C:\Users\com\python\django_chi_ex\chiapp\apps.py
+21=Migration
+10=chiapp.views
+22=ChiappConfig
+13=C:\Users\com\python\django_chi_ex\chiapp\migrations\0001_initial.py
+17=C:\Users\com\python\django_chi_ex\django_chi_ex\urls.py
+16=chiapp.models
+5=C:\Users\com\python\django_chi_ex\django_chi_ex\asgi.py
+20=Survey.Meta
+3=C:\Users\com\python\django_chi_ex\django_chi_ex\wsgi.py
+12=manage
+11=C:\Users\com\python\django_chi_ex\manage.py
+19=Survey
+2=django_chi_ex.settings
+14=chiapp.migrations.0001_initial
+18=django_chi_ex.urls
+8=chiapp.apps
+1=C:\Users\com\python\django_chi_ex\django_chi_ex\settings.py
+-- END DICTIONARY
+-- START TREE 1
+22
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^105#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+chi|1|ChiappConfig!7^4#7*65@
+dat|1|DATABASES!1^86#1*19@
+deb|1|DEBUG!1^26#1*19@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^111#1*19@
+lis|1|listFunc!9^19#5*82@
+mai|2|main!11^7#5*98@mainFunc!9^15#5*82@
+mid|1|MIDDLEWARE!1^51#1*19@
+mig|1|Migration!13^6#7*113@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|2|STATICFILES_DIRS!1^129#1*19@STATIC_URL!1^126#1*19@
+sur|2|surveyFunc!9^17#5*82@Survey!15^4#7*129@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^113#1*19@
+url|1|urlpatterns!17^27#1*147@
+use|3|USE_L10N!1^117#1*19@USE_I18N!1^115#1*19@USE_TZ!1^119#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+11
+age|1|age!19&15^7#5*131@
+co_|1|co_survey!19&15^8#5*131@
+db_|1|db_table!20&15^12#9*131@
+dep|1|dependencies!21&13^11#5*115@
+gen|1|gender!19&15^6#5*131@
+ini|1|initial!21&13^8#5*115@
+man|1|managed!20&15^11#9*131@
+met|1|Meta!19&15^10#11*129@
+nam|1|name!22&7^5#5*67@
+ope|1|operations!21&13^27#5*115@
+rnu|1|rnum!19&15^5#5*131@
+-- END TREE

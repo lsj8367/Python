@@ -1,0 +1,14 @@
+import tensorflow as tf
+import numpy as np
+
+# 선형회귀 모델 계산으로 작성
+opti = tf.keras.optimizers.SGD()
+
+w = tf.Variable(tf.random.normal((1,)))
+b = tf.Variable(tf.random.normal((1,)))
+
+def train_step(x, y):
+    with tf.GradientTape() as tape:
+        hypo = tf.add(tf.multiply(x, x), b)
+        loss = tf.reduce_mean(tf.square(tf.subtract(hypo - y)))
+    grad = tape.gradient(loss, w, b) # 미분

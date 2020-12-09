@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django_test5.__init__|C:\Users\com\python\django_test5\django_test5\__init__.py
+django_test5.asgi|C:\Users\com\python\django_test5\django_test5\asgi.py
+django_test5.settings|C:\Users\com\python\django_test5\django_test5\settings.py
+django_test5.urls|C:\Users\com\python\django_test5\django_test5\urls.py
+django_test5.wsgi|C:\Users\com\python\django_test5\django_test5\wsgi.py
+manage|C:\Users\com\python\django_test5\manage.py
+myapp.__init__|C:\Users\com\python\django_test5\myapp\__init__.py
+myapp.admin|C:\Users\com\python\django_test5\myapp\admin.py
+myapp.apps|C:\Users\com\python\django_test5\myapp\apps.py
+myapp.migrations.0001_initial|C:\Users\com\python\django_test5\myapp\migrations\0001_initial.py
+myapp.migrations.__init__|C:\Users\com\python\django_test5\myapp\migrations\__init__.py
+myapp.models|C:\Users\com\python\django_test5\myapp\models.py
+myapp.tests|C:\Users\com\python\django_test5\myapp\tests.py
+myapp.views|C:\Users\com\python\django_test5\myapp\views.py

@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django_test7_ex.__init__|C:\Users\com\python\django_test7_ex\django_test7_ex\__init__.py
+django_test7_ex.asgi|C:\Users\com\python\django_test7_ex\django_test7_ex\asgi.py
+django_test7_ex.settings|C:\Users\com\python\django_test7_ex\django_test7_ex\settings.py
+django_test7_ex.urls|C:\Users\com\python\django_test7_ex\django_test7_ex\urls.py
+django_test7_ex.wsgi|C:\Users\com\python\django_test7_ex\django_test7_ex\wsgi.py
+manage|C:\Users\com\python\django_test7_ex\manage.py
+mytable.__init__|C:\Users\com\python\django_test7_ex\mytable\__init__.py
+mytable.admin|C:\Users\com\python\django_test7_ex\mytable\admin.py
+mytable.apps|C:\Users\com\python\django_test7_ex\mytable\apps.py
+mytable.migrations.0001_initial|C:\Users\com\python\django_test7_ex\mytable\migrations\0001_initial.py
+mytable.migrations.__init__|C:\Users\com\python\django_test7_ex\mytable\migrations\__init__.py
+mytable.models|C:\Users\com\python\django_test7_ex\mytable\models.py
+mytable.tests|C:\Users\com\python\django_test7_ex\mytable\tests.py
+mytable.views|C:\Users\com\python\django_test7_ex\mytable\views.py

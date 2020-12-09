@@ -1,0 +1,4 @@
+# zoo dataset 으로 동물 분류 : type 7가지
+from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.utils import to_categorical

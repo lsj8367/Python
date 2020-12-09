@@ -1,0 +1,5 @@
+MODULES_MANAGER_V3
+py_http.__init__|C:\Users\com\python\pro3network_web\py_http\__init__.py
+py_http.httpserver1|C:\Users\com\python\pro3network_web\py_http\httpserver1.py
+py_http_cgi.__init__|C:\Users\com\python\pro3network_web\py_http_cgi\__init__.py
+py_http_cgi.httpserver2|C:\Users\com\python\pro3network_web\py_http_cgi\httpserver2.py

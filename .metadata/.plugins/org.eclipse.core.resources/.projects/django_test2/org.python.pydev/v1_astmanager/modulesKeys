@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django_test2.__init__|C:\Users\com\python\django_test2\django_test2\__init__.py
+django_test2.asgi|C:\Users\com\python\django_test2\django_test2\asgi.py
+django_test2.settings|C:\Users\com\python\django_test2\django_test2\settings.py
+django_test2.urls|C:\Users\com\python\django_test2\django_test2\urls.py
+django_test2.wsgi|C:\Users\com\python\django_test2\django_test2\wsgi.py
+gpapp.__init__|C:\Users\com\python\django_test2\gpapp\__init__.py
+gpapp.admin|C:\Users\com\python\django_test2\gpapp\admin.py
+gpapp.apps|C:\Users\com\python\django_test2\gpapp\apps.py
+gpapp.migrations.__init__|C:\Users\com\python\django_test2\gpapp\migrations\__init__.py
+gpapp.models|C:\Users\com\python\django_test2\gpapp\models.py
+gpapp.tests|C:\Users\com\python\django_test2\gpapp\tests.py
+gpapp.urls|C:\Users\com\python\django_test2\gpapp\urls.py
+gpapp.views|C:\Users\com\python\django_test2\gpapp\views.py
+manage|C:\Users\com\python\django_test2\manage.py

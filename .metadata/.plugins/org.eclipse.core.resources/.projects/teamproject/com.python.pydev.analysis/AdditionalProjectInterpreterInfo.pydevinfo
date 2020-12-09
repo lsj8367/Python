@@ -1,0 +1,32 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\teamproject\com.python.pydev.analysis\v2_indexcache
+pack.__init__|1607426586164290900|C:\Users\com\python\teamproject\pack\__init__.py
+pack.wordcloud|1607432964471241800|C:\Users\com\python\teamproject\pack\wordcloud.py
+pack.ex|1607420966559256900|C:\Users\com\python\teamproject\pack\ex.py
+pack.word|1607480142039001000|C:\Users\com\python\teamproject\pack\word.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+5=C:\Users\com\python\teamproject\pack\word.py
+4=pack.wordcloud
+1=C:\Users\com\python\teamproject\pack\ex.py
+2=pack.ex
+3=C:\Users\com\python\teamproject\pack\wordcloud.py
+6=pack.word
+-- END DICTIONARY
+-- START TREE 1
+9
+cli|2|client_id!1^12#1*19@client_secret!1^13#1*19@
+dat|1|data!1^16#1*19@
+enc|1|encText!1^14#1*19@
+lin|1|lines!3^9#5*35@
+okt|2|okt!5^8#1*51@okt!3^7#1*35@
+req|1|request!1^18#1*19@
+res|4|response!1^22#1*19@rescode!1^23#1*19@res!1^28#5*19@response_body!1^25#5*19@
+url|1|url!1^17#1*19@
+wor|3|wordCloud!3^14#5*34@Word_Slicing!5^11#5*50@word_dict!5^9#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

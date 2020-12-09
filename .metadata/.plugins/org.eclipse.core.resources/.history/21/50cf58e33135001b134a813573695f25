@@ -1,0 +1,31 @@
+# Keras를 이용해 논리 모델을 생성한 후 분류 결과 확인
+import numpy as np
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Activation   # Dense 완전연결체
+from tensorflow.keras.optimizers import SGD, Adam, RMSprop
+
+x = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+y = np.array([[0],[0],[0],[1]]) # and 게이트
+
+"""
+model = Sequential()
+model.add(Dense(5, input_dim = 2))
+model.add(Activation('relu'))
+model.add(Dense(1))
+model.add(Activation('sigmoid')) # 이항분류 이므로 출력층 활성화 함수는 sigmoid 사용
+"""
+
+model = Sequential()
+model.add(Dense(5, input_dim = 2, activation = 'relu')) # 입력 2 + bias 1 * 출력 5 = Param 15
+model.add(Dense(5, input_dim = 2, activation = 'relu'))
+model.add(Dense(1, activation = 'sigmoid')) # Dense가 두개라서 위에서 출력 5개 내보낸것을 input으로 받아서 1개를 출력한다.
+
+print(model.summary()) # 전체 구조에 대한 parameter
+print(model.input)  # 입력 구조
+print(model.output) # 출력구조
+print(model.weights)  # 가중치(weight), 편향(bias)
+print('---------------------')
+
+model.compile(optimizer = Adam(0.01), loss='binary_crossentropy', metrics=['accuracy'], loss_weights, weighted_metrics, run_eagerly) # learning rate = 학습률(lr)
+
+

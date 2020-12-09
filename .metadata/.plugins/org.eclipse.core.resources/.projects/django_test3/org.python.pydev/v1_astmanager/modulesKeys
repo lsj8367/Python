@@ -1,0 +1,14 @@
+MODULES_MANAGER_V3
+django_test3.__init__|C:\Users\com\python\django_test3\django_test3\__init__.py
+django_test3.asgi|C:\Users\com\python\django_test3\django_test3\asgi.py
+django_test3.settings|C:\Users\com\python\django_test3\django_test3\settings.py
+django_test3.urls|C:\Users\com\python\django_test3\django_test3\urls.py
+django_test3.wsgi|C:\Users\com\python\django_test3\django_test3\wsgi.py
+manage|C:\Users\com\python\django_test3\manage.py
+sessionapp.__init__|C:\Users\com\python\django_test3\sessionapp\__init__.py
+sessionapp.admin|C:\Users\com\python\django_test3\sessionapp\admin.py
+sessionapp.apps|C:\Users\com\python\django_test3\sessionapp\apps.py
+sessionapp.migrations.__init__|C:\Users\com\python\django_test3\sessionapp\migrations\__init__.py
+sessionapp.models|C:\Users\com\python\django_test3\sessionapp\models.py
+sessionapp.tests|C:\Users\com\python\django_test3\sessionapp\tests.py
+sessionapp.views|C:\Users\com\python\django_test3\sessionapp\views.py

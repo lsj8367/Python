@@ -1,0 +1,63 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\django_test10ajax\com.python.pydev.analysis\v2_indexcache
+django_test10ajax.wsgi|1604621716000000000|C:\Users\com\python\django_test10ajax\django_test10ajax\wsgi.py
+myajax.admin|1604621738000000000|C:\Users\com\python\django_test10ajax\myajax\admin.py
+django_test10ajax.asgi|1604621716000000000|C:\Users\com\python\django_test10ajax\django_test10ajax\asgi.py
+django_test10ajax.urls|1604624302000000000|C:\Users\com\python\django_test10ajax\django_test10ajax\urls.py
+myajax.tests|1604621738000000000|C:\Users\com\python\django_test10ajax\myajax\tests.py
+django_test10ajax.settings|1604621770000000000|C:\Users\com\python\django_test10ajax\django_test10ajax\settings.py
+myajax.apps|1604621738000000000|C:\Users\com\python\django_test10ajax\myajax\apps.py
+manage|1604621716000000000|C:\Users\com\python\django_test10ajax\manage.py
+django_test10ajax.__init__|1604621716000000000|C:\Users\com\python\django_test10ajax\django_test10ajax\__init__.py
+myajax.__init__|1604621738000000000|C:\Users\com\python\django_test10ajax\myajax\__init__.py
+myajax.migrations.__init__|1604621738000000000|C:\Users\com\python\django_test10ajax\myajax\migrations\__init__.py
+myajax.models|1604621738000000000|C:\Users\com\python\django_test10ajax\myajax\models.py
+myajax.views|1604627194000000000|C:\Users\com\python\django_test10ajax\myajax\views.py
+-- END DISKCACHE
+-- START DICTIONARY
+15
+6=django_test10ajax.wsgi
+4=django_test10ajax.asgi
+3=C:\Users\com\python\django_test10ajax\django_test10ajax\asgi.py
+5=C:\Users\com\python\django_test10ajax\django_test10ajax\wsgi.py
+14=django_test10ajax.urls
+2=django_test10ajax.settings
+12=myajax.apps
+10=manage
+9=C:\Users\com\python\django_test10ajax\manage.py
+11=C:\Users\com\python\django_test10ajax\myajax\apps.py
+13=C:\Users\com\python\django_test10ajax\django_test10ajax\urls.py
+7=C:\Users\com\python\django_test10ajax\myajax\views.py
+1=C:\Users\com\python\django_test10ajax\django_test10ajax\settings.py
+15=MyajaxConfig
+8=myajax.views
+-- END DICTIONARY
+-- START TREE 1
+21
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^101#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+fun|2|Func2!7^46#5*66@Func1!7^39#5*66@
+ind|1|indexFunc!7^14#5*66@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|2|lan!7^12#1*67@LANGUAGE_CODE!1^107#1*19@
+mai|1|main!9^7#5*82@
+mid|1|MIDDLEWARE!1^51#1*19@
+mya|1|MyajaxConfig!11^4#7*97@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^121#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^109#1*19@
+url|1|urlpatterns!13^27#1*115@
+use|3|USE_TZ!1^115#1*19@USE_I18N!1^111#1*19@USE_L10N!1^113#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+1
+nam|1|name!15&11^5#5*99@
+-- END TREE

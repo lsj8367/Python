@@ -1,0 +1,31 @@
+# IMDB(영화 리뷰 관련 자료 데이터베이스) : 긍정/부정 5:5
+from tensorflow.keras.datasets import imdb
+
+(train_data, train_label), (test_data, test_label) = imdb.load_data(num_words=10000)
+
+print(train_data)
+print(train_label)
+
+aa = []
+for seq in train_data:
+    #print(max(seq))
+    aa.append(max(seq))
+print(max(aa), len(aa)) # 9999 25000
+
+word_index = imdb.get_word_index() # word_index는 단어와 정수 인덱스를 매핑한 dict type이다.
+reverse_word_index = dict([(value, key) for (key ,value) in word_index.items()])
+print(reverse_word_index)
+decord_review = ' '.join([reverse_word_index.get(i - 3, '?') for i in train_data[0]])
+print(decord_review)
+
+# list type의 자료를 Tensor로 변환. One-hot encoding
+import numpy as np
+
+
+
+
+
+
+
+
+

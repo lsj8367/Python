@@ -1,0 +1,88 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\com\python\.metadata\.plugins\org.eclipse.core.resources\.projects\django_test6maria\com.python.pydev.analysis\v2_indexcache
+myguest.urls|1604370992000000000|C:\Users\com\python\django_test6maria\myguest\urls.py
+myguest.migrations.0001_initial|1604363754000000000|C:\Users\com\python\django_test6maria\myguest\migrations\0001_initial.py
+myguest.models|1604369148000000000|C:\Users\com\python\django_test6maria\myguest\models.py
+myguest.apps|1604363054000000000|C:\Users\com\python\django_test6maria\myguest\apps.py
+myguest.migrations.__init__|1604363054000000000|C:\Users\com\python\django_test6maria\myguest\migrations\__init__.py
+manage|1604363026000000000|C:\Users\com\python\django_test6maria\manage.py
+django_test6maria.asgi|1604363026000000000|C:\Users\com\python\django_test6maria\django_test6maria\asgi.py
+myguest.__init__|1604363054000000000|C:\Users\com\python\django_test6maria\myguest\__init__.py
+myguest.views|1604371906000000000|C:\Users\com\python\django_test6maria\myguest\views.py
+django_test6maria.settings|1604363284000000000|C:\Users\com\python\django_test6maria\django_test6maria\settings.py
+myguest.admin|1604364820000000000|C:\Users\com\python\django_test6maria\myguest\admin.py
+django_test6maria.urls|1604367140000000000|C:\Users\com\python\django_test6maria\django_test6maria\urls.py
+django_test6maria.__init__|1604363026000000000|C:\Users\com\python\django_test6maria\django_test6maria\__init__.py
+django_test6maria.wsgi|1604363026000000000|C:\Users\com\python\django_test6maria\django_test6maria\wsgi.py
+myguest.tests|1604363054000000000|C:\Users\com\python\django_test6maria\myguest\tests.py
+-- END DISKCACHE
+-- START DICTIONARY
+27
+24=Migration
+1=C:\Users\com\python\django_test6maria\django_test6maria\settings.py
+18=myguest.apps
+12=myguest.views
+2=django_test6maria.settings
+5=C:\Users\com\python\django_test6maria\django_test6maria\wsgi.py
+10=myguest.admin
+7=C:\Users\com\python\django_test6maria\myguest\models.py
+20=django_test6maria.urls
+27=Guest.Meta
+17=C:\Users\com\python\django_test6maria\myguest\apps.py
+21=C:\Users\com\python\django_test6maria\myguest\urls.py
+3=C:\Users\com\python\django_test6maria\django_test6maria\asgi.py
+22=myguest.urls
+16=myguest.migrations.0001_initial
+15=C:\Users\com\python\django_test6maria\myguest\migrations\0001_initial.py
+23=Guest
+8=myguest.models
+13=C:\Users\com\python\django_test6maria\manage.py
+25=GuestAdmin
+9=C:\Users\com\python\django_test6maria\myguest\admin.py
+14=manage
+4=django_test6maria.asgi
+11=C:\Users\com\python\django_test6maria\myguest\views.py
+19=C:\Users\com\python\django_test6maria\django_test6maria\urls.py
+26=MyguestConfig
+6=django_test6maria.wsgi
+-- END DICTIONARY
+-- START TREE 1
+22
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^105#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+dat|1|DATABASES!1^86#1*19@
+deb|1|DEBUG!1^26#1*19@
+gue|2|Guest!7^4#7*65@GuestAdmin!9^6#7*81@
+ins|3|INSTALLED_APPS!1^41#1*19@InsertFunc!11^27#5*98@InsertFuncOk!11^30#5*98@
+lan|1|LANGUAGE_CODE!1^111#1*19@
+lis|1|ListFunc!11^10#5*98@
+mai|2|main!13^7#5*114@MainFunc!11^7#5*98@
+mid|1|MIDDLEWARE!1^51#1*19@
+mig|1|Migration!15^6#7*129@
+myg|1|MyguestConfig!17^4#7*145@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^125#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^113#1*19@
+url|2|urlpatterns!19^28#1*163@urlpatterns!21^9#1*179@
+use|3|USE_L10N!1^117#1*19@USE_I18N!1^115#1*19@USE_TZ!1^119#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+11
+__s|1|__str__!23&7^10#9*66@
+con|1|content!23&7^7#5*67@
+dep|1|dependencies!24&15^11#5*131@
+ini|1|initial!24&15^8#5*131@
+lis|1|list_display!25&9^7#5*83@
+met|1|Meta!23&7^14#11*65@
+nam|1|name!26&17^5#5*147@
+ope|1|operations!24&15^23#5*131@
+ord|1|ordering!27&7^18#9*67@
+reg|1|regdate!23&7^8#5*67@
+tit|1|title!23&7^6#5*67@
+-- END TREE

@@ -32,3 +32,7 @@ test_images = test_images.reshape((10000, 28, 28, 1))
 test_images = test_images / 255.0 # 정규화
 
 # train dataset 섞어주기
+train_ds = tf.data.Dataset.from_tensor_slices((train_images, train_labels)).shuffle(60000).batch(28)
+test_ds = tf.data.Dataset.from_tensor_slices((test_images, test_labels)).batch(28)
+print(train_ds)
+print(test_ds)

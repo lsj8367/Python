@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;anal_pro3/linear/testdata/서울특별시_관광지입장정보_2011_2016.json&apos; to &apos;서울특별시_관광지.json&apos;" description="Rename resource &apos;서울특별시_관광지입장정보_2011_2016.json&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="linear/testdata/서울특별시_관광지입장정보_2011_2016.json" name="서울특별시_관광지.json" stamp="1606196741477" updateReferences="true"/>
-</session>

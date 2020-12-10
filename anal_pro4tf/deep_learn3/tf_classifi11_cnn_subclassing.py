@@ -18,6 +18,7 @@ for a in dset:
 
 #=========================================================
 print()
+
 (train_images, train_labels), (test_images, test_labels) = datasets.mnist.load_data()
 print(train_images.shape, type(train_images), train_images.ndim)
 
@@ -64,9 +65,11 @@ model(temp_inputs)
 print(model.summary())
 
 # loss, optimizer 객체 선언
+
 loss_object = tf.keras.losses.SparseCategoricalCrossentropy()
 optimizer = tf.keras.optimizers.Adam()
 
+'''
 # 일반적인 모델 학습
 model.compile(optimizer = optimizer, loss = loss_object, metrics = ['acc'])
 model.fit(train_images, train_labels, batch_size = 128, epochs = 10, verbose = 2, max_queue_size = 10, workers = 4, use_multiprocessing=True)
@@ -78,3 +81,44 @@ print('test acc : ', score[1])
 
 print('예측값 : ', np.argmax(model.predict(test_images[:2]), 1))
 print('실제값 : ', test_labels[:2])
+'''
+
+# 일반적인 모델 학습이 아닌 모델 서브프로세싱 학습방법 - GradientTape을 사용
+# 계산을 위한 객체 변수 선언
+train_loss = tf.keras.metrics.Mean()
+train_accuracy = tf.keras.metrics.SparseCategoricalAccuracy() # 정확도계산용
+# print(train_loss)
+# print(train_accuracy)
+test_loss = tf.keras.metrics.Mean()
+test_accuracy = tf.keras.metrics.SparseCategoricalAccuracy() # 정확도계산용
+
+# GradientTape을 이용해 모델 훈련
+@tf.function
+def train_step(images, labels):
+    with tf.GradientTape() as tape:
+        predictions = model(images)
+        loss = loss_object(labels, predictions)
+    gradients = tape.gradient(loss, model.trainable_variables)
+    optimizer.apply_gradients(zip(gradients, model.trainable_variables))
+    train_loss(loss) # train에 대한 가중치 평균 계산
+    train_accuracy(labels, predictions) # train에 대한 분류 정확도 계산
+
+@tf.function
+def test_step(images, labels):
+    predictions = model(images)
+    t_loss = loss_object(labels, predictions)
+    test_loss(t_loss) # test에 대한 가중치 평균 계산
+    test_accuracy(labels, predictions) # test에 대한 분류 정확도 계산
+
+epochs = 5
+for epoch in range(epochs):
+    for train_images, train_labels in train_ds:
+        train_step(train_images, train_labels)
+    for test_images, test_labels in test_ds:
+        test_step(test_images, test_labels)
+    template = 'epochs:{}, train_loss:{}, train_acc:{}, test_loss:{}, test_acc:{}'
+    print(template.format(epoch+1, train_loss.result(), train_accuracy.result(), test_loss.result(), test_accuracy.result()))
+
+print('예측값 : ', np.argmax(model.predict(test_images[:2]), 1))
+print('실제값 : ', test_labels[:2])
+

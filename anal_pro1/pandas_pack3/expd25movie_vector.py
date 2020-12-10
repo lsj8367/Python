@@ -60,7 +60,7 @@ time.sleep(2)
 movies = [m.replace("영화","") for m in movies] # 영화를 가진 문자 공백처리
 
 print("---------------")
-
+print(movies)
 def word_separate(movies):
     result = []
     for mov in movies:

@@ -4,7 +4,7 @@
 
 from tensorflow.keras.datasets import cifar10
 import matplotlib.pyplot as plt
-from tensorflow.keras.layers import Input, Flatten, Dense, Conv2D
+from tensorflow.keras.layers import Input, Flatten, Dense, Conv2D, MaxPool2D
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.utils import to_categorical
@@ -105,18 +105,22 @@ print(model.summary())
 input_layer = Input((32, 32, 3))
 
 x = Conv2D(filters = 32, kernel_size=3, strides = 1, padding = 'same')(input_layer)
+x = MaxPool2D((2,2))(x)
 x = BatchNormalization()(x)
 x = LeakyReLU()(x)
 
 x = Conv2D(filters = 32, kernel_size=3, strides = 2, padding = 'same')(x)
+x = MaxPool2D((2,2))(x)
 x = BatchNormalization()(x)
 x = LeakyReLU()(x)
 
 x = Conv2D(filters = 64, kernel_size=3, strides = 1, padding = 'same')(x)
+x = MaxPool2D((2,2))(x)
 x = BatchNormalization()(x)
 x = LeakyReLU()(x)
 
 x = Conv2D(filters = 64, kernel_size=3, strides = 2, padding = 'same')(x)
+x = MaxPool2D((2,2))(x)
 x = BatchNormalization()(x)
 x = LeakyReLU()(x)
 
